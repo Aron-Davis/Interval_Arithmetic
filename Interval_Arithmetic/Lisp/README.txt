@@ -7,20 +7,20 @@ Beccacece Aron Davis
 --Le seguenti funzioni sono necessarie per gestire i numeri reali estesi.
 
 Funzione +e (&optional x y) → risultato
-Questa è la funzione di somma che prende x e y come valori sui numeri reali estesi secondo la tabella sopra. La funzione chiamata senza argomenti restituisce 0, cioè l'unità rispetto all'operazione di sommazione. 
-La funzione deve chiamare error quando la combinazione dei valori di x e y corrisponde a ⊥ nella tabella.
+Questa è la funzione di somma che prende x e y come valori sui numeri reali estesi. La funzione chiamata senza argomenti restituisce 0, cioè l'unità rispetto all'operazione di sommazione. 
+La funzione deve chiamare error quando la combinazione dei valori di x e y corrisponde a ⊥.
 
 Funzione -e (x &optional y) → risultato
-Questa è la funzione di sottrazione che prende x e y come valori sui numeri reali estesi secondo la tabella sopra. La versione unaria è il reciproco di x rispetto alla sommazione secondo la tabella di sommazione. 
-La funzione deve chiamare error quando la combinazione dei valori di x e y corrisponde a ⊥ nella tabella.
+Questa è la funzione di sottrazione che prende x e y come valori sui numeri reali estesi. La versione unaria è il reciproco di x rispetto alla sommazione secondo la tabella di sommazione. 
+La funzione deve chiamare error quando la combinazione dei valori di x e y corrisponde a ⊥.
 
 Funzione *e (&optional x y) → risultato
-Questa è la funzione di moltiplicazione che prende x e y come valori sui numeri reali estesi secondo la tabella sopra. La funzione chiamata senza argomenti restituisce 1, cioè l'unità rispetto all'operazione di moltiplicazione. 
-La funzione deve chiamare error quando la combinazione dei valori di x e y corrisponde a ⊥ nella tabella.
+Questa è la funzione di moltiplicazione che prende x e y come valori sui numeri reali estesi. La funzione chiamata senza argomenti restituisce 1, cioè l'unità rispetto all'operazione di moltiplicazione. 
+La funzione deve chiamare error quando la combinazione dei valori di x e y corrisponde a ⊥.
 
 Funzione /e (x &optional y) → risultato
-Questa è la funzione di divisione che prende x e y come valori sui numeri reali estesi secondo la tabella sopra. La versione unaria è il reciproco di x rispetto all'operazione di moltiplicazione secondo la tabella di moltiplicazione. 
-La funzione deve chiamare error quando la combinazione dei valori di x e y corrisponde a ⊥ nella tabella.
+Questa è la funzione di divisione che prende x e y come valori sui numeri reali estesi. La versione unaria è il reciproco di x rispetto all'operazione di moltiplicazione secondo la tabella di moltiplicazione. 
+La funzione deve chiamare error quando la combinazione dei valori di x e y corrisponde a ⊥.
 
 --Le seguenti funzioni costituiscono la base per le operazioni di aritmetica degli intervalli. 
 
