@@ -1,4 +1,4 @@
-Beccacece Aron Davis 856480
+Beccacece Aron Davis
 
 # Interval Arithmetic #
 
